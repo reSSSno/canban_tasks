@@ -32,11 +32,3 @@ docker compose exec backend pytest -q
 ```
 
 
-
-## Стиль кода
-
-Frontend: `cd frontend && npm install && npm run format` (Prettier).
-
-Backend: `ruff format backend/app backend/tests` и `ruff check backend/app backend/tests` (после установки Ruff).
-
-Проверка сборки и тестов запускается в GitHub Actions при отправке изменений.
