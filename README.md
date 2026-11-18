@@ -27,5 +27,4 @@ React, TypeScript, Vite, FastAPI, SQLAlchemy, PostgreSQL, APScheduler, WebSocket
 docker compose exec backend pytest -q
 ```
 
-## Примечания
-Демо-версия предназначена для локального учебного запуска. Для публичного развёртывания необходимы HTTPS/WSS, надёжный JWT_SECRET, миграции БД, ограничение частоты запросов и отдельный брокер событий для нескольких экземпляров backend.
+
